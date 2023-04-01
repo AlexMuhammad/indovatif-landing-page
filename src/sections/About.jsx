@@ -1,5 +1,5 @@
 import React from 'react'
-import Man from '../assets/img/youngman.png'
+// import Man from '../assets/img/youngman.png'
 import Robot from "../assets/img/robot.png"
 
 function About() {

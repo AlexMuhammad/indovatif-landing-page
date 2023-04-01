@@ -19,17 +19,14 @@ function App() {
     // return () => {
     //   clearInterval(test);
     // };
-    const test = setTimeout(() => {
-      setShow(true)
-    }, 3000);
-    return () => {
-      clearInterval(test)
-    }
+    setShow(true)
+    setTimeout(() => {
+      setShow(false)
+    }, 1500);
   }, []);
 
   return (
     <>
-
       {show ? <Loading /> :
         <>
           <Navbar />
