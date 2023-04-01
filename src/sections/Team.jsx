@@ -14,9 +14,7 @@ function Team() {
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 1,
-        autoplay: true,
         speed: 500,
-        autoplaySpeed: 500,
         cssEase: "linear",
         responsive: [
             {
@@ -49,7 +47,7 @@ function Team() {
     const data = [
         {
             id: 1,
-            name: "Muhammad Mufti Ashidiqqi",
+            name: "Muhammad Mufti A",
             position: "Chief Technology Officer",
             image: mufti
         },
